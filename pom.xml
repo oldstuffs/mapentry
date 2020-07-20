@@ -6,7 +6,7 @@
 
     <groupId>io.github.portlek</groupId>
     <artifactId>mapentry</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <name>mapentry</name>
     <description>Simply Map.Entry implementation which is immutable.</description>
     <url>https://github.com/portlek/replaceable</url>
