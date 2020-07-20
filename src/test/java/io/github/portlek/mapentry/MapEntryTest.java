@@ -28,6 +28,7 @@ package io.github.portlek.mapentry;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.core.IsEqual;
 import org.junit.jupiter.api.Test;
+import org.llorllale.cactoos.matchers.IsTrue;
 import org.llorllale.cactoos.matchers.Throws;
 
 final class MapEntryTest {
@@ -69,7 +70,7 @@ final class MapEntryTest {
         MatcherAssert.assertThat(
             "MapEntries are not equals",
             new MapEntry<>(key, value).equals(new MapEntry<>(key, value)),
-            new IsEqual<>(true)
+            new IsTrue()
         );
     }
 
