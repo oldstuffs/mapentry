@@ -58,8 +58,9 @@ final class MapEntryTest {
     public void cantSetValue() {
         MatcherAssert.assertThat(
             "MapEntry class shouldn't be mutable!",
-
-            new Throws<>(UnsupportedOperationException.class, ));
+            new MapEntry<>("elegant", "objects").setValue("test"),
+            new Throws<>(UnsupportedOperationException.class)
+        );
     }
 
     @Test
@@ -78,7 +79,6 @@ final class MapEntryTest {
         MatcherAssert.assertThat(
             "the hash code are not equals",
             new MapEntry<>("elegant", "objects").hashCode(),
-            // @checkstyle MagicNumber (1 line)
             new IsEqual<>(32_739_498)
         );
     }
