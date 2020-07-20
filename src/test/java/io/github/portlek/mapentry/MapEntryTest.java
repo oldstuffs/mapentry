@@ -58,7 +58,8 @@ final class MapEntryTest {
     public void cantSetValue() {
         MatcherAssert.assertThat(
             "MapEntry class shouldn't be mutable!",
-            new MapEntry<>("elegant", "objects").setValue("test"),
+            () ->
+                new MapEntry<>("elegant", "objects").setValue("test"),
             new Throws<>(UnsupportedOperationException.class)
         );
     }
