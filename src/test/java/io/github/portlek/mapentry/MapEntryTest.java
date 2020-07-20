@@ -45,11 +45,10 @@ final class MapEntryTest {
 
     @Test
     public void getValue() {
-        final String key = "foo";
         final String value = "bar";
         MatcherAssert.assertThat(
             "Can't get value in the map entry",
-            new MapEntry<>(key, value).getValue(),
+            new MapEntry<>("foo", value).getValue(),
             new IsEqual<>(value)
         );
     }
