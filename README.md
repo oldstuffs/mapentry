@@ -2,7 +2,7 @@
 Simply Map.Entry implementation which is immutable.
 
 [![idea](https://www.elegantobjects.org/intellij-idea.svg)](https://www.jetbrains.com/idea/)
-[![rultor](https://www.rultor.com/b/yegor256/rultor)](https://www.rultor.com/p/portlek/SmartInventory)
+[![rultor](https://www.rultor.com/b/yegor256/rultor)](https://www.rultor.com/p/portlek/mapentry)
 
 [![Build Status](https://travis-ci.com/portlek/mapentry.svg?branch=master)](https://travis-ci.com/portlek/mapentry)
 ![Maven Central](https://img.shields.io/maven-central/v/io.github.portlek/mapentry?label=version)
