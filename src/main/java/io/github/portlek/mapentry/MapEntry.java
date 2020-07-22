@@ -7,7 +7,7 @@ import org.jetbrains.annotations.NotNull;
 
 /**
  * MapEntry as {@link java.util.AbstractMap.Entry}.
- * <p>
+ *
  * There is no thread-safety guarantee.
  *
  * @param <K> Key type
