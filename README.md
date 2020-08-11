@@ -1,6 +1,3 @@
-# MapEntry
-Simply Map.Entry implementation which is immutable.
-
 [![idea](https://www.elegantobjects.org/intellij-idea.svg)](https://www.jetbrains.com/idea/)
 [![rultor](https://www.rultor.com/b/yegor256/rultor)](https://www.rultor.com/p/portlek/mapentry)
 
@@ -8,23 +5,6 @@ Simply Map.Entry implementation which is immutable.
 ![Maven Central](https://img.shields.io/maven-central/v/io.github.portlek/mapentry?label=version)
 
 ## Setup
-
-<details>
-<summary>Gradle</summary>
-
-```gradle
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    implementation("io.github.portlek:mapentry:${version}")
-}
-```
-</details>
-
-<details>
-<summary>Maven</summary>
 
 ```xml
 <dependencies>
@@ -35,4 +15,12 @@ dependencies {
     </dependency>
 </dependencies>
 ```
-</details>
+```gradle
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("io.github.portlek:mapentry:${version}")
+}
+```
