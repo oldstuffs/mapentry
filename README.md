@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.com/portlek/mapentry.svg?branch=master)](https://travis-ci.com/portlek/mapentry)
 ![Maven Central](https://img.shields.io/maven-central/v/io.github.portlek/mapentry?label=version)
 
-## Setup
+## How to Use
 
 ```xml
 <dependencies>
