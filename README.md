@@ -3,24 +3,14 @@
 
 [![Build Status](https://travis-ci.com/portlek/mapentry.svg?branch=master)](https://travis-ci.com/portlek/mapentry)
 ![Maven Central](https://img.shields.io/maven-central/v/io.github.portlek/mapentry?label=version)
-
 ## How to Use
-
 ```xml
-<dependencies>
-    <dependency>
-      <groupId>io.github.portlek</groupId>
-      <artifactId>mapentry</artifactId>
-      <version>${version}</version>
-    </dependency>
-</dependencies>
+<dependency>
+  <groupId>io.github.portlek</groupId>
+  <artifactId>mapentry</artifactId>
+  <version>${version}</version>
+</dependency>
 ```
 ```gradle
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    implementation("io.github.portlek:mapentry:${version}")
-}
+implementation("io.github.portlek:mapentry:${version}")
 ```
