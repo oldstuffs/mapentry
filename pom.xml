@@ -12,7 +12,7 @@
     <version>1.0-SNAPSHOT</version>
     <name>mapentry</name>
     <description>Simply Map.Entry implementation which is immutable.</description>
-    <url>https://github.com/portlek/replaceable</url>
+    <url>https://github.com/portlek/mapentry</url>
 
     <scm>
         <connection>scm:git:git://github.com/portlek/mapentry.git</connection>
