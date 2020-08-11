@@ -20,37 +20,4 @@
         <url>https://github.com/portlek/mapentry</url>
     </scm>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.12</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains</groupId>
-            <artifactId>annotations</artifactId>
-            <version>20.0.0</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.cactoos</groupId>
-            <artifactId>cactoos</artifactId>
-            <version>0.46</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.llorllale</groupId>
-            <artifactId>cactoos-matchers</artifactId>
-            <version>0.18</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.7.0-M1</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
 </project>
