@@ -2,22 +2,20 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <artifactId>ppom</artifactId>
-        <groupId>io.github.portlek</groupId>
-        <version>1.8.20</version>
-    </parent>
-    <artifactId>mapentry</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <name>mapentry</name>
-    <description>Simply Map.Entry implementation which is immutable.</description>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>io.github.portlek</groupId>
+    <artifactId>ppom</artifactId>
+    <version>1.8.20</version>
+  </parent>
+  <artifactId>mapentry</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>mapentry</name>
+  <description>Simply Map.Entry implementation which is immutable.</description>
+  <url>https://github.com/portlek/mapentry</url>
+  <scm>
     <url>https://github.com/portlek/mapentry</url>
-
-    <scm>
-        <connection>scm:git:git://github.com/portlek/mapentry.git</connection>
-        <developerConnection>scm:git:ssh://github.com/portlek/mapentry.git</developerConnection>
-        <url>https://github.com/portlek/mapentry</url>
-    </scm>
-
+    <connection>scm:git:git://github.com/portlek/mapentry.git</connection>
+    <developerConnection>scm:git:ssh://github.com/portlek/mapentry.git</developerConnection>
+  </scm>
 </project>
